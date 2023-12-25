@@ -1,5 +1,5 @@
 import { Play } from 'phosphor-react'
-import * as S from './style'
+import * as S from './styles'
 
 export function Home() {
     return (
