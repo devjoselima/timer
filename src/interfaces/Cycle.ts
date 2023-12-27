@@ -22,3 +22,8 @@ export interface CyclesContextType {
     createNewCycle: (data: CreateCycleData) => void
     interruptCurrentCycle: () => void
 }
+
+export interface CyclesState {
+    cycles: Cycle[]
+    activeCycleId: string | null
+}
