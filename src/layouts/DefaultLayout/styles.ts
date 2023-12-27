@@ -14,8 +14,10 @@ export const LayoutContainer = styled.div`
     flex-direction: column;
 
     @media (max-width: 1250px) {
-        max-width: calc(
-            95% - 5rem
-        ); /* Largura máxima ajustada para telas menores */
+        max-width: calc(100% - 5rem);
+    }
+
+    @media (max-width: 500px) {
+        max-width: calc(100% - 1rem);
     }
 `

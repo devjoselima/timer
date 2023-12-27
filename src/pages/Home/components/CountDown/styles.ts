@@ -19,7 +19,7 @@ export const CountDownContainer = styled.div`
         }
 
         @media (max-width: 600px) {
-            padding: 0.5rem 0.5rem;
+            padding: 1rem 0.5rem;
         }
     }
 
@@ -29,9 +29,13 @@ export const CountDownContainer = styled.div`
     }
 
     @media (max-width: 600px) {
-        font-size: 5rem;
+        font-size: 6.5rem;
         align-items: center;
-        gap: 0.5rem;
+        gap: 0.8rem;
+    }
+
+    @media (max-width: 600px) {
+        font-size: 5rem;
     }
 `
 export const Separator = styled.div`
